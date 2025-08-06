@@ -1,0 +1,132 @@
+.about .section-block .my-subtitle {
+    width: 600px;
+}
+
+.about .section-block {
+    margin-bottom: 150px;
+}
+
+.about-top {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 120px;
+}
+
+.about-left {
+    width: 500px;
+}
+
+.about-left p {
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+.about-left .my-subtitle,
+.about-left .my-title {
+    text-align: left;
+}
+
+.about-right {
+    display: flex;
+    gap: 20px;
+}
+
+.about-right img {
+    width: 288px;
+    height: 410px;
+}
+
+.about-right img:nth-child(2) {
+    margin-top: 130px;
+}
+
+.about-bot {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 120px;
+}
+
+
+.about-item {
+    position: relative;
+}
+
+.about-item-box {
+    width: 495px;
+    color: var(--title-color);
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+}
+
+.about-item-box h2 {
+    padding-bottom: 20px;
+}
+
+.about-item-box p {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.about-choose {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.about-choose-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-bottom: 50px;
+    gap: 30px;
+}
+
+.about-choose-item {
+    padding: 30px;
+    border: 1px solid #DCDEDE;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+
+}
+
+.about-choose-item span {
+    width: 56px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main-color);
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.about-choose-item h2 {
+    font-size: 18px;
+}
+
+.about-choose-item p {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.test {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.test button {
+    width: 40px;
+    height: 40px;
+    background-color: var(--main-color);
+    font-size: 40px;
+    color: var(--title-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

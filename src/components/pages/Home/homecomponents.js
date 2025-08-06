@@ -1,0 +1,9 @@
+export { HomeAbout } from './HomeBlocks/HomeAbout';
+export { HomeBlog } from './HomeBlocks/HomeBlog';
+export { HomeChoose } from './HomeBlocks/HomeChoose';
+export { HomeCustomers } from './HomeBlocks/HomeCustomers';
+export { HomeFaq } from './HomeBlocks/HomeFaq';
+export { HomeProcess } from './HomeBlocks/HomeProcess';
+export { HomeServices } from './HomeBlocks/HomeServices';
+export { HomeFirst } from './HomeBlocks/HomeFirst';
+export { HomeCarousel } from './HomeBlocks/HomeCarousel';

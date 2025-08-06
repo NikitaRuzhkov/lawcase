@@ -1,0 +1,24 @@
+.section-block {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--main-bg);
+    margin-bottom: 50px;
+}
+
+.section-block .my-subtitle {
+    color: var(--title-color);
+    width: 800px;
+}
+
+
+@media(max-width:875px) {
+    .section-block {
+        padding: 20px;
+    }
+
+    .section-block .my-subtitle {
+        width: 100%;
+    }
+}

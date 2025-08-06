@@ -1,0 +1,18 @@
+.get-in-touch {
+    background-color: var(--main-color);
+    color: var(--title-color);
+    font-weight: bold;
+    padding: 12px 0;
+    border-radius: 25px;
+    transition: all .3s;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 205px;
+    justify-content: center;
+}
+
+.get-in-touch:hover {
+    transition: all .3s;
+    box-shadow: 0 4px 12px var(--main-color);
+}
