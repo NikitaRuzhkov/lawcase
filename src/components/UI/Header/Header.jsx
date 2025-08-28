@@ -4,12 +4,23 @@ import { Logo } from '../Logo/Logo';
 
 import './Header.css';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import { HeaderItems } from './HeaderItems';
 
 const Header = () => {
   const [isModal, setIsmodal] = useState(false);
+  const [isSticky, setIsSticky] = useState(false);
+
+  const handleScroll = () => {
+    setIsSticky(window.scrollY > 0);
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   const openModal = () => {
     setIsmodal(prev => !prev);
@@ -18,7 +29,7 @@ const Header = () => {
     setIsmodal(false);
   };
   return (
-    <div className="header">
+    <div className={isSticky ? 'header sticky' : 'header'}>
       <div className="container">
         <div className="header-inner">
           <Logo />

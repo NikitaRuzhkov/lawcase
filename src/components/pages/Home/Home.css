@@ -90,7 +90,7 @@
 
 
 .home-choose {
-    background-color: #FDF6F0;
+    background-color: var(--second-color);
     padding: 50px;
     border-radius: 20px;
     margin-bottom: 120px;
@@ -266,33 +266,6 @@
     align-items: center;
 }
 
-.home-blog .blog-items {
-    display: flex;
-    gap: 30px;
-    align-items: center;
-    margin-bottom: 50px;
-}
-
-.home-carousel-container {
-    display: flex;
-    overflow: hidden;
-    width: 100%;
-    white-space: nowrap;
-    background-color: var(--main-color);
-}
-
-.home-carousel-content {
-    display: flex;
-}
-
-.home-carousel-item {
-    width: 200px;
-    height: 105px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
 
 
 @media(max-width:1163px) {

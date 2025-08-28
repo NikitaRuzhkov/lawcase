@@ -16,3 +16,7 @@
     transition: all .3s;
     box-shadow: 0 4px 12px var(--main-color);
 }
+
+.get-in-touch-no {
+    display: none;
+}

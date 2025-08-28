@@ -4,11 +4,13 @@ import {
   About,
   Blog,
   BlogPage,
+  ErrorPage,
   GetInTouch,
   Home,
   ServicePage,
   Services,
 } from '../pages/pages';
+import { Terms } from '../pages/Trems/Terms';
 import { Layout } from '../UI/Layout';
 
 export const router = createBrowserRouter([
@@ -43,6 +45,18 @@ export const router = createBrowserRouter([
       {
         path: '/contact-us',
         element: <GetInTouch />,
+      },
+      {
+        path: '/terms',
+        element: <Terms />,
+      },
+      {
+        path: '*',
+        element: <ErrorPage />,
+      },
+      {
+        path: '/error-404',
+        element: <ErrorPage />,
       },
     ],
   },

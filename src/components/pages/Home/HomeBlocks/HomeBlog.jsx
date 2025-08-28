@@ -6,7 +6,7 @@ const HomeBlog = () => {
   return (
     <div className="home-blog">
       <MyTitle title="" subtitle="" />
-      <BlogItems limit="3" />
+      <BlogItems limit="3" isDisplay={false} />
       <MyLink to="/blog">View All Blogs</MyLink>
     </div>
   );

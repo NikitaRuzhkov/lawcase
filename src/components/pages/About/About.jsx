@@ -1,22 +1,13 @@
-import { useState } from 'react';
-
 import { SectionBlock } from '../../UI/SectionBlock/SectionBlock';
 
 import './About.css';
 
 import { AboutChoose } from './AboutBlocks/AboutChoose';
 import { AboutContent } from './AboutBlocks/AboutContent';
+import { AboutFounder } from './AboutBlocks/AboutFounder';
+import { AboutTeam } from './AboutBlocks/AboutTeam';
 
 const About = () => {
-  const [counter, setCounter] = useState(0);
-
-  const hanldePlus = () => {
-    setCounter(prev => prev + 1);
-    console.log(counter);
-  };
-  const hanldeMinus = () => {
-    setCounter(prev => prev - 1);
-  };
   return (
     <section className="about">
       <SectionBlock
@@ -26,12 +17,10 @@ const About = () => {
       <div className="wrapper">
         <AboutContent />
         <AboutChoose />
-        <div className="test">
-          <button onClick={hanldeMinus}>-</button>
-          <span>{counter}</span>
-          <button onClick={hanldePlus}>+</button>
-        </div>
+        <AboutFounder />
+        <AboutTeam />
       </div>
+      <SectionBlock isDefault={false} />
     </section>
   );
 };

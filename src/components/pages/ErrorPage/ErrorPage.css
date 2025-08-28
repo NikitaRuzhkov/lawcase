@@ -1,0 +1,18 @@
+.error-paage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--second-color);
+    padding: 120px 0;
+}
+
+@media(max-width:600px) {
+    .error-paage {
+        padding: 50px 0;
+    }
+
+    .error-paage h1 {
+        font-size: 25px;
+    }
+}

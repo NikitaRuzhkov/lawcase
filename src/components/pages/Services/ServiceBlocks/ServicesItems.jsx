@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
-import { aroowRight } from '../../../assets/images';
-import { services } from '../../data/services';
+import { aroowRight } from '../../../../assets/images';
+import { services } from '../../../data/services';
 
 const ServicesItems = ({ limit }) => {
   const displayedServices = limit ? services.slice(0, limit) : services;

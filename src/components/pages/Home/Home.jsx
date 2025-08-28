@@ -27,10 +27,7 @@ const Home = () => {
         <HomeFaq />
         <HomeBlog />
       </div>
-      <SectionBlock
-        title="Reach out"
-        subtitle="Our experienced attorney are here to answer any questions"
-      />
+      <SectionBlock isDefault={false} />
     </section>
   );
 };

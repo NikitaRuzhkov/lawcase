@@ -1,8 +1,5 @@
 .section-block {
     padding: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     background-color: var(--main-bg);
     margin-bottom: 50px;
 }
@@ -10,6 +7,12 @@
 .section-block .my-subtitle {
     color: var(--title-color);
     width: 800px;
+}
+
+.section-date {
+    color: var(--title-color);
+    font-size: 16px;
+    opacity: 0.8;
 }
 
 

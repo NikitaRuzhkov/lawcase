@@ -5,6 +5,7 @@
 .footer-inner {
     display: flex;
     margin-bottom: 50px;
+    gap: 30px;
 
 }
 

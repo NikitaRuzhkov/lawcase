@@ -1,0 +1,23 @@
+.terms-page-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 120px;
+    line-height: 22px;
+}
+
+.terms-page-inner h2 {
+    margin-bottom: 20px;
+
+}
+
+.terms-page-inner ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.terms-item {
+    list-style: initial;
+    margin-left: 30px;
+}

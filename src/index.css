@@ -8,6 +8,8 @@
     box-sizing: border-box;
 }
 
+
+
 ul {
     list-style: none;
 
@@ -39,10 +41,13 @@ body {
 }
 
 :root {
+    --contact-bg: #172423;
+    --contact-input: #232F2E;
     --main-bg: #172423;
     --main-color: #E99F69;
     --title-color: #ffffff;
     --text-color: #000000;
+    --second-color: #FDF6F0;
 }
 
 .layout {

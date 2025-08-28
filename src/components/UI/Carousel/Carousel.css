@@ -1,0 +1,19 @@
+.carousel-container {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+    background-color: var(--main-color);
+}
+
+.carousel-content {
+    display: flex;
+}
+
+.carousel-item {
+    width: 200px;
+    height: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
