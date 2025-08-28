@@ -38,7 +38,11 @@ const GetInTouch = () => {
 
             return (
               <div className="get-contact-item" key={contact.id}>
-                <img src={contact.image} alt={contact.title} />
+                <img
+                  className="get-contact-item-img"
+                  src={contact.image}
+                  alt={contact.title}
+                />
                 <div className="get-contact-box">
                   <div className="get-contact-img">
                     <img src={contact.icon} alt={contact.title} />
