@@ -112,7 +112,8 @@
     background-color: var(--main-color);
 }
 
-.get-contact-title .my-subtitle {
+.get-contact-title .my-subtitle,
+.get-contact-title .my-title {
     text-align: center;
 }
 
